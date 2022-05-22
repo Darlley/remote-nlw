@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.widget-container{
+  @apply
+
+  absolute
+  bottom-5
+  right-5
+}
+.widget-button{
+  @apply
+
+  bg-[#8257e6]
+  rounded-full
+  px-3
+  text-white
+  h-16
+  flex
+  items-center
+
+  overflow-hidden
+
+  hover:gap-2
+}
+.widget-icon{
+  @apply
+
+  w-11
+  h-11
+}
+.widget-button__content{
+  @apply
+
+  w-0
+  p-0
+  m-0
+  translate-x-10
+  opacity-0
+  text-2xl
+  font-medium
+  flex
+  transition-all
+  duration-200
+}
+
+.widget-button:hover .widget-button__content{
+  @apply
+  
+  translate-x-0
+  opacity-100
+  w-auto
+}

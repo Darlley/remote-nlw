@@ -37,6 +37,16 @@
   @apply
 
   w-0
+}
+.button-span{
+  @apply
 
+  text-xl 
+  max-w-0 
+  flex
+}
+.button-span.active{
+  @apply
   
+  max-w-xs
 }
